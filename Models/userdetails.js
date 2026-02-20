@@ -8,6 +8,10 @@ UserSchema = mongoose.Schema({
     type: Number,
     required: true
   },
+  department:{
+    required: true,
+    type: String
+  },
   Year:{
     type: String,
     required: true

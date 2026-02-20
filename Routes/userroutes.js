@@ -9,7 +9,7 @@ router.get('/users', userController.handleGetAllUsers);
 router.post('/users', userController.handleCreateUser);
 router.put('/users/:Registernumber', userController.handleUpdateUser);
 router.delete('/users/:Registernumber', userController.handleDeleteUser);
-router.get('/users/:year/:section', userController.handleGetbyYearandSection);
+router.get('/users/:year/:section/', userController.handleGetbyYearandSection);
 
 module.exports = router;
 // Route

@@ -42,8 +42,8 @@ async function handleDeleteUser(req, res) {
     
 }
 async function handleGetbyYearandSection(req, res) {
-    const { year, section } = req.params;
-    const users = await User.find({ Year: year, Section: section });
+    const { year, section} = req.params;
+    const users = await User.find({ Year: year, Section: section});
     res.json(users);
 }
 
